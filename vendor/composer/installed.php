@@ -226,9 +226,9 @@
         'psr/http-factory-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
-                0 => '*',
-                1 => '^1.0',
-                2 => '1.0',
+                0 => '^1.0',
+                1 => '1.0',
+                2 => '*',
             ),
         ),
         'psr/http-message' => array(
@@ -243,9 +243,9 @@
         'psr/http-message-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
-                0 => '*',
-                1 => '^1.1 || ^2.0',
-                2 => '1.0',
+                0 => '^1.1 || ^2.0',
+                1 => '1.0',
+                2 => '*',
                 3 => '^1.0 || ^2.0',
             ),
         ),
