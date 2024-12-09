@@ -10,9 +10,9 @@ class ComposerStaticInit845924cc7fa1a3be3ae44b90bf25cb64
         '5897ea0ac4cccf14d323035e65887801' => __DIR__ . '/..' . '/symfony/polyfill-php82/bootstrap.php',
         '8e92226780215d0ec758aa7b73e0ede9' => __DIR__ . '/..' . '/open-telemetry/context/fiber/initialize_fiber_handler.php',
         'c7b4a5d8b94d270f0f9a84f81e1dd63d' => __DIR__ . '/..' . '/open-telemetry/api/Trace/functions.php',
-        '253c157292f75eb38082b5acb06f3f01' => __DIR__ . '/..' . '/nikic/fast-route/src/functions.php',
         'e39a8b23c42d4e1452234d762b03835a' => __DIR__ . '/..' . '/ramsey/uuid/src/functions.php',
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
+        '253c157292f75eb38082b5acb06f3f01' => __DIR__ . '/..' . '/nikic/fast-route/src/functions.php',
         'c695cb998ba36e4bafc3d028efc7d113' => __DIR__ . '/..' . '/open-telemetry/sdk/Common/Util/functions.php',
         'd991bdbfe253499825156f17c4a721db' => __DIR__ . '/..' . '/open-telemetry/sdk/Logs/Exporter/_register.php',
         '01d424d2624f29a2eef00b09eb00935e' => __DIR__ . '/..' . '/open-telemetry/sdk/Metrics/MetricExporter/_register.php',
@@ -32,6 +32,7 @@ class ComposerStaticInit845924cc7fa1a3be3ae44b90bf25cb64
         '157bbd0180425c7142fbaf1b1646bec3' => __DIR__ . '/..' . '/open-telemetry/exporter-otlp/_register.php',
         '58ecdc6bc6b585138831611aa769a744' => __DIR__ . '/..' . '/open-telemetry/opentelemetry-auto-psr18/_register.php',
         'dfdb213a5229dd55e621055ca8fd74e1' => __DIR__ . '/..' . '/open-telemetry/opentelemetry-auto-slim/_register.php',
+        '88ba729344893fbac0923a8952a95d11' => __DIR__ . '/..' . '/open-telemetry/transport-grpc/_register.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -64,6 +65,7 @@ class ComposerStaticInit845924cc7fa1a3be3ae44b90bf25cb64
             'OpenTelemetry\\Contrib\\Otlp\\' => 27,
             'OpenTelemetry\\Contrib\\Instrumentation\\Slim\\' => 43,
             'OpenTelemetry\\Contrib\\Instrumentation\\Psr18\\' => 44,
+            'OpenTelemetry\\Contrib\\Grpc\\' => 27,
             'OpenTelemetry\\Context\\' => 22,
             'OpenTelemetry\\API\\' => 18,
         ),
@@ -83,6 +85,7 @@ class ComposerStaticInit845924cc7fa1a3be3ae44b90bf25cb64
         ),
         'G' => 
         array (
+            'Grpc\\' => 5,
             'Google\\Protobuf\\' => 16,
             'GPBMetadata\\Opentelemetry\\' => 26,
             'GPBMetadata\\Google\\Protobuf\\' => 28,
@@ -177,6 +180,10 @@ class ComposerStaticInit845924cc7fa1a3be3ae44b90bf25cb64
         array (
             0 => __DIR__ . '/..' . '/open-telemetry/opentelemetry-auto-psr18/src',
         ),
+        'OpenTelemetry\\Contrib\\Grpc\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/open-telemetry/transport-grpc',
+        ),
         'OpenTelemetry\\Context\\' => 
         array (
             0 => __DIR__ . '/..' . '/open-telemetry/context',
@@ -204,6 +211,10 @@ class ComposerStaticInit845924cc7fa1a3be3ae44b90bf25cb64
         'Http\\Discovery\\' => 
         array (
             0 => __DIR__ . '/..' . '/php-http/discovery/src',
+        ),
+        'Grpc\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/grpc/grpc/src/lib',
         ),
         'Google\\Protobuf\\' => 
         array (

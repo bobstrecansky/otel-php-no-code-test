@@ -9,9 +9,9 @@ return array(
     '5897ea0ac4cccf14d323035e65887801' => $vendorDir . '/symfony/polyfill-php82/bootstrap.php',
     '8e92226780215d0ec758aa7b73e0ede9' => $vendorDir . '/open-telemetry/context/fiber/initialize_fiber_handler.php',
     'c7b4a5d8b94d270f0f9a84f81e1dd63d' => $vendorDir . '/open-telemetry/api/Trace/functions.php',
-    '253c157292f75eb38082b5acb06f3f01' => $vendorDir . '/nikic/fast-route/src/functions.php',
     'e39a8b23c42d4e1452234d762b03835a' => $vendorDir . '/ramsey/uuid/src/functions.php',
     '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => $vendorDir . '/symfony/polyfill-mbstring/bootstrap.php',
+    '253c157292f75eb38082b5acb06f3f01' => $vendorDir . '/nikic/fast-route/src/functions.php',
     'c695cb998ba36e4bafc3d028efc7d113' => $vendorDir . '/open-telemetry/sdk/Common/Util/functions.php',
     'd991bdbfe253499825156f17c4a721db' => $vendorDir . '/open-telemetry/sdk/Logs/Exporter/_register.php',
     '01d424d2624f29a2eef00b09eb00935e' => $vendorDir . '/open-telemetry/sdk/Metrics/MetricExporter/_register.php',
@@ -31,4 +31,5 @@ return array(
     '157bbd0180425c7142fbaf1b1646bec3' => $vendorDir . '/open-telemetry/exporter-otlp/_register.php',
     '58ecdc6bc6b585138831611aa769a744' => $vendorDir . '/open-telemetry/opentelemetry-auto-psr18/_register.php',
     'dfdb213a5229dd55e621055ca8fd74e1' => $vendorDir . '/open-telemetry/opentelemetry-auto-slim/_register.php',
+    '88ba729344893fbac0923a8952a95d11' => $vendorDir . '/open-telemetry/transport-grpc/_register.php',
 );
